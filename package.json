@@ -1,0 +1,23 @@
+{
+  "name": "portafoliomulti",
+  "version": "1.0.0",
+  "description": "Proyecto individual de multimedios2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css --output-style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josue7114/PortafolioMulti.git"
+  },
+  "author": "Josue Cordero Espinoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josue7114/PortafolioMulti/issues"
+  },
+  "homepage": "https://github.com/josue7114/PortafolioMulti#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
