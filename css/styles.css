@@ -5,7 +5,7 @@
 }
 
 .body{
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .header{
@@ -87,7 +87,7 @@
     transform: translateY(-100%);
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
     .nav{
         flex-direction: column;
     }

@@ -9,7 +9,7 @@ $(function(){
         btnmenu = $('#btn-menu'), 
         icono = $('#btn-menu .icono');
 
-        if(ancho < 600){
+        if(ancho < 900){
             links.hide();
             icono.addClass('fa-bars');
         }
@@ -21,7 +21,7 @@ $(function(){
         });
 
         $(window).on('resize', function(){
-            if($(this).width() > 600){
+            if($(this).width() > 900){
                 links.show();
                 icono.addClass('fa-times');
                 icono.removeClass('fa-bars');
