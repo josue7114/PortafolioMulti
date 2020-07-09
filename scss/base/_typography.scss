@@ -1,0 +1,21 @@
+.body{
+    padding-top: 5%;
+    font-family: $nanum;
+    color: #373640;
+    transition: .3s ease all;
+}
+@media screen and (max-width: 900px){
+    .body{
+        padding-top: 20%;
+    }
+}
+
+.dark{
+    background-color: black;
+}
+.title{
+    font-size: 3em;
+}
+.subtitle{
+    font-size: 2em;
+}

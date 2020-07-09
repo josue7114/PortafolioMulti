@@ -1,0 +1,25 @@
+.nav{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headroom{
+    transition: transform .3s ease;
+    &--pinned{
+        transform: translateY(0%);
+    }
+    &--unpinned{
+        transform: translateY(-100%);
+    }
+}
+
+@media screen and (max-width: 900px){
+    .nav{
+        flex-direction: column;
+    }
+}

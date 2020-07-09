@@ -5,7 +5,6 @@
     <title>Josué Cordero Espinoza</title>
     <link href="css/styles.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/2243a7f268.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet"> 
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
@@ -14,31 +13,37 @@
     <header id="header" class="header">
         <section class="section__header">
             <nav class="nav">
-                <div class="container__logo" alt="Logo jota">
-                    <a class="link--img" href="index.html"><img class="logo" src="img/j.jpg" /></a>
-                    <a class="btn-menu" id="btn-menu" href="#"><i class="icono fas fa-bars"></i></a>
+                <div class="container-logo" alt="Logo jota">
+                    <a class="container-logo__link--img" href="index.html"><img class="container-logo__link--logo" src="img/j.jpg" /></a>
+                    <a class="container-logo__btn-menu" id="btn-menu" href="#"><i class="icono fas fa-bars"></i></a>
                 </div>
-                <div class="container__link" id="container__link">
-                    <a class="link" href="index.html">Inicio</a>
-                    <a class="link" href="#aboutme">Acerca de mí</a>
-                    <a class="link" href="#academic">Formación académica</a>
-                    <a class="link" href="#experience">Experiencia laboral</a>
-                    <a class="link" href="#skills">Habilidades</a>
-                    <a class="link" href="#contact">Contacto</a>
+                <div class="container-link" id="container__link">
+                    <a class="container-link__link" href="index.html">Inicio</a>
+                    <a class="container-link__link" href="#aboutme">Acerca de mí</a>
+                    <a class="container-link__link" href="#academic">Formación académica</a>
+                    <a class="container-link__link" href="#experience">Experiencia laboral</a>
+                    <a class="container-link__link" href="#skills">Habilidades</a>
+                    <a class="container-link__link" href="#contact">Contacto</a>
                 </div>
             </nav>
         </section>
     </header>
     <section class="content">
         <section id="aboutme" class="section__about">
+            <div class="container-switch">
+                <button class="switch" id="switch">
+                    <span class="span--switch"><i class="far fa-sun"></i></span>
+                    <span class="span--switch"><i class="far fa-moon"></i></span>
+                </button>
+            </div>
             <h1 class="title">Josué Cordero Espinoza</h1>
             <hr>
-            <h2>Acerca de mi</h2>
-            <div>
-                <label>Fecha de nacimiento:</label>
-                <label>14 de mayo de 1995</label>
+            <h2 class="subtitle">Acerca de mi</h2>
+            <div class="container__birth">
+                <label class="label">Fecha de nacimiento:</label>
+                <label class="label">14 de mayo de 1995</label>
             </div>
-            <div>
+            <div class="container__description">
                 <p class="paragraph">
                     Soy un joven apasionado por la aviación, mientras que en la informática soy apasionado por el backend. Nacido en San José, Costa Rica
                     pero dispuesto a viajar por el mundo para conocer nuevas maneras de desarrollar aplicaciones más eficientes, además de poder ofrecer 
@@ -47,12 +52,12 @@
             </div>
         </section>
         <section id="academic" class="section__academic">
-            <h2>Estudios realizados</h2>
+            <h2 class="subtitle">Estudios realizados</h2>
             <p class="paragraph">Universidad de Costa Rica <br><i>Bachillerato en informática empresarial</i><br><strong>-Actualidad-</strong></p>
             <p class="paragraph">Colegio Nocturno de Orotina<br><i>Bachillerato en educación superior</i><br><strong>-2012-</strong></p>
         </section>
         <section id="experience" class="section__experience">
-            <h2>Experiencia laboral</h2>
+            <h2 class="subtitle">Experiencia laboral</h2>
             <div class="left-content">
                 <p class="paragraph--timeline">Content 01</p>
                 <p class="paragraph--timeline">Content 02</p>
@@ -79,10 +84,10 @@
              </div>
         </section>
         <section id="skills" class="section__skills">
-            <h2>Habilidades</h2>
+            <h2 class="subtitle">Habilidades</h2>
         </section>
         <section id="contact" class="section__contact">
-            <h2>Contacto</h2>
+            <h2 class="subtitle">Contacto</h2>
         </section>
     </section>
     <footer class="footer">
@@ -92,8 +97,7 @@
     </footer>
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/headroom.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/timeline.js"></script>
+    <script src="js/actions.js"></script>
 </body>
 
 </html>
