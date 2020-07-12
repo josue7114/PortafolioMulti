@@ -124,7 +124,7 @@
 }
 
 .container-carrousel {
-  width: 50%;
+  width: 40%;
   position: absolute;
   animation: rotacion 20s infinite linear;
   transform-style: preserve-3d;
@@ -143,43 +143,43 @@
 }
 
 .container-carrousel__figure:nth-child(1) {
-  transform: rotateY(0deg) translateZ(300px);
+  transform: rotateY(0deg) translateZ(400px);
 }
 
 .container-carrousel__figure:nth-child(2) {
-  transform: rotateY(40deg) translateZ(300px);
+  transform: rotateY(40deg) translateZ(400px);
 }
 
 .container-carrousel__figure:nth-child(3) {
-  transform: rotateY(80deg) translateZ(300px);
+  transform: rotateY(80deg) translateZ(400px);
 }
 
 .container-carrousel__figure:nth-child(4) {
-  transform: rotateY(120deg) translateZ(300px);
+  transform: rotateY(120deg) translateZ(400px);
 }
 
 .container-carrousel__figure:nth-child(5) {
-  transform: rotateY(160deg) translateZ(300px);
+  transform: rotateY(160deg) translateZ(400px);
 }
 
 .container-carrousel__figure:nth-child(6) {
-  transform: rotateY(200deg) translateZ(300px);
+  transform: rotateY(200deg) translateZ(400px);
 }
 
 .container-carrousel__figure:nth-child(7) {
-  transform: rotateY(240deg) translateZ(300px);
+  transform: rotateY(240deg) translateZ(400px);
 }
 
 .container-carrousel__figure:nth-child(8) {
-  transform: rotateY(280deg) translateZ(300px);
+  transform: rotateY(280deg) translateZ(400px);
 }
 
 .container-carrousel__figure:nth-child(9) {
-  transform: rotateY(320deg) translateZ(300px);
+  transform: rotateY(320deg) translateZ(400px);
 }
 
 .container-carrousel__figure:nth-child(10) {
-  transform: rotateY(360deg) translateZ(300px);
+  transform: rotateY(360deg) translateZ(400px);
 }
 
 .container-carrousel__img {
@@ -218,6 +218,48 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+  .carrousel {
+    width: 50%;
+  }
+  .container-carrousel {
+    width: 50%;
+  }
+  .container-carrousel__figure {
+    width: 100%;
+  }
+  .container-carrousel__figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(125px);
+  }
+  .container-carrousel__figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(125px);
+  }
+  .container-carrousel__figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(125px);
+  }
+  .container-carrousel__figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(125px);
+  }
+  .container-carrousel__figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(125px);
+  }
+  .container-carrousel__figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(125px);
+  }
+  .container-carrousel__figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(125px);
+  }
+  .container-carrousel__figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(125px);
+  }
+  .container-carrousel__figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(125px);
+  }
+  .container-carrousel__figure:nth-child(10) {
+    transform: rotateY(360deg) translateZ(125px);
+  }
+  .container-carrousel__img {
+    width: 100%;
   }
 }
 
@@ -280,8 +322,7 @@
 
 .section__contact {
   width: auto;
-  display: flex;
-  align-content: space-around;
+  display: inline-flex;
 }
 
 .section__contact--facebook {
@@ -314,6 +355,26 @@
 
 .list__item--sublist:hover {
   color: #35e026;
+}
+
+.img {
+  margin-left: 10%;
+}
+
+.img--facebook {
+  width: 100%;
+}
+
+.img--instagram {
+  width: 100%;
+}
+
+.img--linkedin {
+  width: 100%;
+}
+
+.img--whatsapp {
+  width: 100%;
 }
 
 .right-content, .left-content {
@@ -355,6 +416,39 @@
 h3 {
   text-align: center;
   margin-bottom: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .section__contact {
+    width: auto;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .section__contact--facebook {
+    margin: 15% 5%;
+  }
+  .section__contact--instagram {
+    margin: 15% 5%;
+  }
+  .section__contact--linkedin {
+    margin: 15% 5%;
+  }
+  .section__contact--whatsapp {
+    margin: 15% 5%;
+  }
+  .img--facebook {
+    width: 30%;
+  }
+  .img--instagram {
+    width: 30%;
+  }
+  .img--linkedin {
+    width: 30%;
+  }
+  .img--whatsapp {
+    width: 30%;
+  }
 }
 
 .footer {
