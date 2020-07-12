@@ -20,6 +20,12 @@
 
 .dark {
   background-color: black;
+  color: blanchedalmond;
+}
+
+.dark .content {
+  background-color: black;
+  color: blanchedalmond;
 }
 
 .title {
@@ -273,6 +279,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.75);
+  transition: .3s ease all;
 }
 
 .section__about {
@@ -363,18 +370,38 @@
 
 .img--facebook {
   width: 100%;
+  transition: all .5s;
+}
+
+.img--facebook:hover {
+  transform: scale(1.2);
 }
 
 .img--instagram {
   width: 100%;
+  transition: all .5s;
+}
+
+.img--instagram:hover {
+  transform: scale(1.2);
 }
 
 .img--linkedin {
   width: 100%;
+  transition: all .5s;
+}
+
+.img--linkedin:hover {
+  transform: scale(1.2);
 }
 
 .img--whatsapp {
   width: 100%;
+  transition: all .5s;
+}
+
+.img--whatsapp:hover {
+  transform: scale(1.2);
 }
 
 .right-content, .left-content {

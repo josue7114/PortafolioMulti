@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.75);
+    transition: .3s ease all;
 }
 
 .section{
@@ -79,15 +80,32 @@
   margin-left: 10%;
   &--facebook{
     width: 100%;
+    transition: all .5s;
+    &:hover{
+      transform: scale(1.2);
+      
+    }
   }
   &--instagram{
     width: 100%;
+    transition: all .5s;
+    &:hover{
+      transform: scale(1.2);
+    }
   }
   &--linkedin{
     width: 100%;
+    transition: all .5s;
+    &:hover{
+      transform: scale(1.2);
+    }
   }
   &--whatsapp{
     width: 100%;
+    transition: all .5s;
+    &:hover{
+      transform: scale(1.2);
+    }
   }
 }
 //timeline
