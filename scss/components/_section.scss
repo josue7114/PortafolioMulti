@@ -10,6 +10,42 @@
     box-shadow: 0px 2px 5px rgba(0,0,0,0.75);
 }
 
+.section{
+  &__about{
+
+  }
+  &__academic{
+
+  }
+  &__experience{
+
+  }
+  &__projects{
+
+  }
+  &__skills{
+
+  }
+  &__contact{
+    display: flex;
+    align-content: space-around;;
+    &--facebook{
+      margin: 10% 5%;
+    }
+    &--instagram{
+      margin: 10% 5%;
+    }
+    &--linkedin{
+      margin: 10% 5%;
+    }
+    &--whatsapp{
+      margin: 10% 5%;
+    }
+  }
+}
+i{
+  size: 10em;
+}
 //timeline
 .right-content, .left-content {
 	float:left;
