@@ -79,6 +79,74 @@
     font-family: $roboto;
     margin-bottom: 1em;
 }
+.carrousel{
+    width: 100%;
+    margin-left: 30%;
+    perspective: 2000px;
+    position: relative;
+}
+
+.container-carrousel{
+    width: 50%;
+    position: absolute;
+    animation: rotacion 20s infinite linear;
+    transform-style: preserve-3d;
+    &:hover{
+        animation-play-state: paused;
+        cursor: pointer;
+    }
+    &__figure{
+        width: 100%;
+        height: 120px;
+        overflow: hidden;
+        position: absolute;
+        &:nth-child(1){
+            transform: rotateY(0deg) translateZ(300px);
+        }
+        &:nth-child(2){
+            transform: rotateY(40deg) translateZ(300px);
+        }
+        &:nth-child(3){
+            transform: rotateY(80deg) translateZ(300px);
+        }
+        &:nth-child(4){
+            transform: rotateY(120deg) translateZ(300px);
+        }
+        &:nth-child(5){
+            transform: rotateY(160deg) translateZ(300px);
+        }
+        &:nth-child(6){
+            transform: rotateY(200deg) translateZ(300px);
+        }
+        &:nth-child(7){
+            transform: rotateY(240deg) translateZ(300px);
+        }
+        &:nth-child(8){
+            transform: rotateY(280deg) translateZ(300px);
+        }
+        &:nth-child(9){
+            transform: rotateY(320deg) translateZ(300px);
+        }
+        &:nth-child(10){
+            transform: rotateY(360deg) translateZ(300px);
+        }
+    }
+    &__img{
+        width: 50%;
+        transition: all 2s;
+        &:hover{
+            transform: scale(1.1);
+            transition: all 1s;
+        }
+    }
+}
+@keyframes rotacion{
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
 
 @media screen and (max-width: 900px){
     .container-logo {

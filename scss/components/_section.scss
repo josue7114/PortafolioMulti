@@ -12,21 +12,42 @@
 
 .section{
   &__about{
-
+    width: auto;
   }
   &__academic{
-
+    width: auto;
   }
   &__experience{
-
+    width: auto;
   }
   &__projects{
-
+    width: auto;
+    font-family: $roboto;
+    font-weight: bolder;
+    &--aeusp{
+      margin-bottom: 30%;
+    }
+    &--softcolitas{
+      margin-bottom: 30%;
+    }
+    &--monso{
+      margin-bottom: 10%;
+    }
   }
   &__skills{
-
+    margin-top: 20%;
+    width: auto;
+    font-family: $roboto;
+    font-weight: bolder;
+    &--personal{
+      margin-left: 8%;
+    }
+    &--knowledge{
+      margin-left: 8%;
+    }
   }
   &__contact{
+    width: auto;
     display: flex;
     align-content: space-around;;
     &--facebook{
@@ -43,9 +64,19 @@
     }
   }
 }
-i{
-  size: 10em;
+.list{
+  align-items: center;
+  &__item{
+    margin-left: 5%;
+    &--sublist{
+      margin-left: 10%;
+      &:hover{
+        color: #35e026;
+      }
+    }
+  }
 }
+
 //timeline
 .right-content, .left-content {
 	float:left;
@@ -75,4 +106,9 @@ transition: all 0.7s ease-in-out;
 }
 .right-content .more-padding {
   padding-left:100px;
+}
+
+h3{
+  text-align: center;
+  margin-bottom: 5%;
 }
