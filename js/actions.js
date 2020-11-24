@@ -50,7 +50,21 @@ $(window).scroll(function(){
 });
 
 const btnSwitch = document.querySelector('#switch');
+var findClass = 'active';
 btnSwitch.addEventListener('click', () =>{
     document.body.classList.toggle('dark');
     btnSwitch.classList.toggle('active');
+    if($(btnSwitch).hasClass(findClass)){
+        $("#img-fb").attr('src',"img/facebook.png");
+        $("#img-im").attr('src',"img/instagram-bosquejado.png");
+        $("#img-ld").attr('src',"img/linkedin.png");
+        $("#img-wa").attr('src',"img/whatsapp.png");
+    }
+    else{
+        $("#img-fb").attr('src',"img/facebook-black.png");
+        $("#img-im").attr('src',"img/instagram-bosquejado-black.png");
+        $("#img-ld").attr('src',"img/linkedin-black.png");
+        $("#img-wa").attr('src',"img/whatsapp-black.png");
+    }
 });
+
