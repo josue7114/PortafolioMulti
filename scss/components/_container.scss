@@ -83,6 +83,15 @@
     }
 }
 
+.container-img-perfil{
+    width: 100%;
+    text-align: end;
+    position: relative;
+    .img-perfil{
+        width: 100%;
+    }
+}
+
 .paragraph{
     font-family: $roboto;
     margin-bottom: 1em;
