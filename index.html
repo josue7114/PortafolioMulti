@@ -4,6 +4,9 @@
 <head>
     <title>Josué Cordero Espinoza</title>
     <link href="scss/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/2243a7f268.js" crossorigin="anonymous"></script>
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -14,7 +17,8 @@
         <section class="section__header">
             <nav class="nav">
                 <div class="container-logo" alt="Logo jota">
-                    <a class="container-logo__link--img" href="index.html"><img class="container-logo__link--logo" src="img/pngocean.com.png" /></a>
+                    <a class="container-logo__link--img" href="index.html"><img class="container-logo__link--logo"
+                            src="img/pngocean.com.png" /></a>
                     <a class="container-logo__btn-menu" id="btn-menu" href="#"><i class="icono fas fa-bars"></i></a>
                 </div>
                 <div class="container-link" id="container__link">
@@ -40,7 +44,7 @@
             <hr>
             <br>
             <div class="container-img-perfil">
-                <img src="img/josue.jpg" alt="Persona sonriendo" class="img-perfil"/>
+                <img src="img/josue.jpg" alt="Persona sonriendo" class="img-perfil" />
             </div>
             <h2 class="subtitle">Acerca de mi</h2>
             <div class="container__birth">
@@ -49,56 +53,64 @@
             </div>
             <div class="container__description">
                 <p class="paragraph">
-                    Soy un joven apasionado por la aviación, mientras que en la informática soy apasionado por el backend. Nacido en San José, Costa Rica
-                    pero dispuesto a viajar por el mundo para conocer nuevas maneras de desarrollar aplicaciones más eficientes, además de poder ofrecer 
+                    Soy un joven apasionado por la aviación, mientras que en la informática soy apasionado por el
+                    backend. Nacido en San José, Costa Rica
+                    pero dispuesto a viajar por el mundo para conocer nuevas maneras de desarrollar aplicaciones más
+                    eficientes, además de poder ofrecer
                     mi talento a los proyectos que se me presenten.
                 </p>
             </div>
         </section>
         <section id="academic" class="section__academic">
             <h2 class="subtitle">Estudios realizados</h2>
-            <p class="paragraph">Universidad de Costa Rica <br><i>Bachillerato en informática empresarial</i><br><strong>-Actualidad-</strong></p>
-            <p class="paragraph">Colegio universitario Boston<br><i>Operador de aplicaciones ofimáticas</i><br><strong>-2013-</strong></p>
-            <p class="paragraph">Colegio Nocturno de Orotina<br><i>Bachillerato en educación superior</i><br><strong>-2012-</strong></p>
+            <p class="paragraph">Universidad de Costa Rica <br><i>Bachillerato en informática
+                    empresarial</i><br><strong>-Actualidad-</strong></p>
+            <p class="paragraph">Colegio universitario Boston<br><i>Operador de aplicaciones
+                    ofimáticas</i><br><strong>-2013-</strong></p>
+            <p class="paragraph">Colegio Nocturno de Orotina<br><i>Bachillerato en educación
+                    superior</i><br><strong>-2012-</strong></p>
         </section>
         <section id="experience" class="section__experience">
             <h2 class="subtitle">Experiencia laboral</h2>
             <div class="left-content">
-                <p class="paragraph--timeline"><span class="container__paragraph">VII Simposio Informática empresarial<br>Staff voluntario
-                    <br>
-                    2019
-                </span></p>
-                <p class="paragraph--timeline"><span class="container__paragraph">Vivero Cavallini<br>Vendedor por temporadas
-                    <br>
-                    2015-2019
-                </span></p>
+                <p class="paragraph--timeline"><span class="container__paragraph">VII Simposio Informática
+                        empresarial<br>Staff voluntario
+                        <br>
+                        2019
+                    </span></p>
+                <p class="paragraph--timeline"><span class="container__paragraph">Vivero Cavallini<br>Vendedor por
+                        temporadas
+                        <br>
+                        2015-2019
+                    </span></p>
                 <p class="paragraph--timeline"><span class="container__paragraph">Soda Mayela <br> Dependiente
-                    <br>
-                    2011-2013
-                </span></p>
-                <p class="paragraph--timeline"><span class="container__paragraph"> <br> 
-                    <br>
-                    
-                </span></p>
-             </div>
-             <div class="right-content">
-                <p class="paragraph--timeline"><span class="container__paragraph">Municipalidad de Orotina<br>Práctica empresarial supervisada
-                    <br>
-                    2020
-                </span></p>
+                        <br>
+                        2011-2013
+                    </span></p>
+                <p class="paragraph--timeline"><span class="container__paragraph"> <br>
+                        <br>
+
+                    </span></p>
+            </div>
+            <div class="right-content">
+                <p class="paragraph--timeline"><span class="container__paragraph">Municipalidad de Orotina<br>Práctica
+                        empresarial supervisada
+                        <br>
+                        2020
+                    </span></p>
                 <p class="paragraph--timeline"><span class="container__paragraph">Drupal Camp<br>Staff voluntario
-                    <br>
-                    2019
-                </span></p>
+                        <br>
+                        2019
+                    </span></p>
                 <p class="paragraph--timeline"><span class="container__paragraph">Vivero Cavallini<br>Encargado sucursal
-                    <br>
-                    2014-2015
-                </span></p>
+                        <br>
+                        2014-2015
+                    </span></p>
                 <p class="paragraph--timeline"><span class="container__paragraph">Vivero Cavallini <br> Peón agrícola
-                    <br>
-                    2010
-                </span></p>
-             </div>
+                        <br>
+                        2010
+                    </span></p>
+            </div>
         </section>
         <section id="projects" class="section__projects">
             <h2 class="subtitle">Proyectos</h2>
@@ -106,33 +118,137 @@
                 <h3>Inventario virtual AEUSP</h3>
                 <section class="carrousel">
                     <div class="container-carrousel">
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/AEUSP" target="blank"><img class="container-carrousel__img" src="img/AEUSP/Login.png" alt="Login de AEUSP"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/AEUSP" target="blank"><img class="container-carrousel__img" src="img/AEUSP/Principal.png" alt="Página principal de AEUSP"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/AEUSP" target="blank"><img class="container-carrousel__img" src="img/AEUSP/Créditos.png" alt="Créditos de AEUSP"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/AEUSP" target="blank"><img class="container-carrousel__img" src="img/AEUSP/Login.png" alt="Login de AEUSP"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/AEUSP" target="blank"><img class="container-carrousel__img" src="img/AEUSP/Principal.png" alt="Página principal de AEUSP"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/AEUSP" target="blank"><img class="container-carrousel__img" src="img/AEUSP/Créditos.png" alt="Créditos de AEUSP"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/AEUSP" target="blank"><img class="container-carrousel__img" src="img/AEUSP/Login.png" alt="Login de AEUSP"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/AEUSP" target="blank"><img class="container-carrousel__img" src="img/AEUSP/Principal.png" alt="Página principal de AEUSP"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/AEUSP" target="blank"><img class="container-carrousel__img" src="img/AEUSP/Créditos.png" alt="Créditos de AEUSP"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/AEUSP" target="blank"><img class="container-carrousel__img" src="img/AEUSP/Login.png" alt="Login de AEUSP"/></a></figure>
+                        <figure class="container-carrousel__figure"><a data-toggle="modal"
+                                data-target="#modalAEUSP"><img class="container-carrousel__img"
+                                    src="img/AEUSP/Login.png" alt="Login de AEUSP" /></a>
+                        </figure>
+                        <figure class="container-carrousel__figure"><a data-toggle="modal"
+                                data-target="#modalAEUSP"><img class="container-carrousel__img"
+                                    src="img/AEUSP/Principal.png" alt="Página principal de AEUSP" /></a></figure>
+                        <figure class="container-carrousel__figure"><a data-toggle="modal"
+                                data-target="#modalAEUSP"><img class="container-carrousel__img"
+                                    src="img/AEUSP/Créditos.png" alt="Créditos de AEUSP" /></a></figure>
+                        <figure class="container-carrousel__figure"><a data-toggle="modal"
+                                data-target="#modalAEUSP"><img class="container-carrousel__img"
+                                    src="img/AEUSP/Login.png" alt="Login de AEUSP" /></a></figure>
+                        <figure class="container-carrousel__figure"><a data-toggle="modal"
+                                data-target="#modalAEUSP"><img class="container-carrousel__img"
+                                    src="img/AEUSP/Principal.png" alt="Página principal de AEUSP" /></a></figure>
+                        <figure class="container-carrousel__figure"><a data-toggle="modal"
+                                data-target="#modalAEUSP"><img class="container-carrousel__img"
+                                    src="img/AEUSP/Créditos.png" alt="Créditos de AEUSP" /></a></figure>
+                        <figure class="container-carrousel__figure"><a data-toggle="modal"
+                                data-target="#modalAEUSP"><img class="container-carrousel__img"
+                                    src="img/AEUSP/Login.png" alt="Login de AEUSP" /></a></figure>
+                        <figure class="container-carrousel__figure"><a data-toggle="modal"
+                                data-target="#modalAEUSP"><img class="container-carrousel__img"
+                                    src="img/AEUSP/Principal.png" alt="Página principal de AEUSP" /></a></figure>
+                        <figure class="container-carrousel__figure"><a data-toggle="modal"
+                                data-target="#modalAEUSP"><img class="container-carrousel__img"
+                                    src="img/AEUSP/Créditos.png" alt="Créditos de AEUSP" /></a></figure>
+                        <figure class="container-carrousel__figure"><a data-toggle="modal"
+                                data-target="#modalAEUSP"><img class="container-carrousel__img"
+                                    src="img/AEUSP/Login.png" alt="Login de AEUSP" /></a></figure>
                     </div>
                 </section>
             </div>
+            <!-- Modal AEUSP -->
+            <div class="modal fade" id="modalAEUSP" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                            <h3 class="modal-title" id="myModalLabel">Descripción</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                El sistema de inventario virtual, se desarrolló como una necesidad de la Asociación de
+                                Estudiantes de la Universidad
+                                de Costa Rica, con su sede en el Pacífico Central. La misma contiene módulos de control
+                                de distintas áreas, de las cuales
+                                la asociación es encargada. Entre ellas, se puede mencionar el módulo de limpieza,
+                                alimentos y manejo de finanzas.
+                            </p>
+                            <span>Integrantes del proyecto</span>
+                            <a href="https://www.linkedin.com/in/josue-cordero-5b9747163/" target="_blank">
+                                <li>Josué Cordero Espinoza</li>
+                            </a>
+                            <a href="https://www.linkedin.com/in/oliver-santiago-araya-portuguez-6369691a9/"
+                                target="_blank">
+                                <li>Oliver Araya Portuguez</li>
+                            </a>
+                            <li>Kevin Baltonado Chavez</li>
+                            <a href="https://www.linkedin.com/in/marjorie-benavides-53a37a1aa/" target="_blank">
+                                <li>Marjorie Benavides Murillo</li>
+                            </a>
+                            <li>Ethan Cordero Bedoya</li>
+                            <a href="https://www.linkedin.com/in/andrey-mena-brenes-488315137" target="_blank">
+                                <li>Andrey Mena Brenes</li>
+                            </a>
+                            <a href="https://www.linkedin.com/in/manfred-morales-gamboa-7abb071ba/" target="_blank">
+                                <li>Manfred Morales Gamboa</li>
+                            </a>
+                            <a href="https://www.linkedin.com/in/joseph-morales-6532141a8" target="_blank">
+                                <li>Joseph Morales Silva</li>
+                            </a>
+                            <li>Jose Rodolfo Ortega Bolaños</li>
+                            <a href="https://www.linkedin.com/in/keilyn-ram%C3%ADrez-vargas-062a41201/" target="_blank">
+                                <li>Keilyn Ramírez Vargas</li>
+                            </a>
+                            <a href="https://www.linkedin.com/in/fabi%C3%A1n-torres-castro-7b5a3b1a7/" target="_blank">
+                                <li>Fabián Torres Castro</li>
+                            </a>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                            <a type="button" class="btn btn-default" href="https://github.com/josue7114/AEUSP"
+                                target="_blank">Ver proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="section__projects--softcolitas">
                 <h3>SoftColitas</h3>
                 <section class="carrousel">
                     <div class="container-carrousel">
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas" target="blank"><img class="container-carrousel__img" src="img/softcolitas/principal.png" alt="Principal SoftColitas"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas" target="blank"><img class="container-carrousel__img" src="img/softcolitas/reg-usuarios.png" alt="Registro de usuarios SoftColitas"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas" target="blank"><img class="container-carrousel__img" src="img/softcolitas/consult-usuarios.png" alt="Consulta de usuarios SoftColitas"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas" target="blank"><img class="container-carrousel__img" src="img/softcolitas/expediente.png" alt="Expediente de animales SoftColitas"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas" target="blank"><img class="container-carrousel__img" src="img/softcolitas/list-adop.png" alt="Lista adoptantes SoftColitas"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas" target="blank"><img class="container-carrousel__img" src="img/softcolitas/principal.png" alt="Principal SoftColitas"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas" target="blank"><img class="container-carrousel__img" src="img/softcolitas/reg-usuarios.png" alt="Registro de usuarios SoftColitas"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas" target="blank"><img class="container-carrousel__img" src="img/softcolitas/consult-usuarios.png" alt="Consulta de usuarios SoftColitas"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas" target="blank"><img class="container-carrousel__img" src="img/softcolitas/expediente.png" alt="Expediente de animales SoftColitas"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas" target="blank"><img class="container-carrousel__img" src="img/softcolitas/list-adop.png" alt="Lista adoptantes SoftColitas"/></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas"
+                                target="blank"><img class="container-carrousel__img" src="img/softcolitas/principal.png"
+                                    alt="Principal SoftColitas" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/softcolitas/reg-usuarios.png" alt="Registro de usuarios SoftColitas" /></a>
+                        </figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/softcolitas/consult-usuarios.png"
+                                    alt="Consulta de usuarios SoftColitas" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/softcolitas/expediente.png" alt="Expediente de animales SoftColitas" /></a>
+                        </figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas"
+                                target="blank"><img class="container-carrousel__img" src="img/softcolitas/list-adop.png"
+                                    alt="Lista adoptantes SoftColitas" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas"
+                                target="blank"><img class="container-carrousel__img" src="img/softcolitas/principal.png"
+                                    alt="Principal SoftColitas" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/softcolitas/reg-usuarios.png" alt="Registro de usuarios SoftColitas" /></a>
+                        </figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/softcolitas/consult-usuarios.png"
+                                    alt="Consulta de usuarios SoftColitas" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/softcolitas/expediente.png" alt="Expediente de animales SoftColitas" /></a>
+                        </figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/softcolitas"
+                                target="blank"><img class="container-carrousel__img" src="img/softcolitas/list-adop.png"
+                                    alt="Lista adoptantes SoftColitas" /></a></figure>
                     </div>
                 </section>
             </div>
@@ -140,33 +256,75 @@
                 <h3>Monso</h3>
                 <section class="carrousel">
                     <div class="container-carrousel">
-                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject" target="blank"><img class="container-carrousel__img" src="img/monso/principal.png" alt="Inicio página Monso"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject" target="blank"><img class="container-carrousel__img" src="img/monso/login.png" alt="Login página Monso"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject" target="blank"><img class="container-carrousel__img" src="img/monso/about.png" alt="Acerca de Monso"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject" target="blank"><img class="container-carrousel__img" src="img/monso/lista-productos.png" alt="Registro de Productos Monso"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject" target="blank"><img class="container-carrousel__img" src="img/monso/catalogo.png" alt="Catálogo de productos Monso"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject" target="blank"><img class="container-carrousel__img" src="img/monso/principal.png" alt="Inicio página Monso"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject" target="blank"><img class="container-carrousel__img" src="img/monso/login.png" alt="Login página Monso"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject" target="blank"><img class="container-carrousel__img" src="img/monso/about.png" alt="Acerca de Monso"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject" target="blank"><img class="container-carrousel__img" src="img/monso/lista-productos.png" alt="Registro de Productos Monso"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject" target="blank"><img class="container-carrousel__img" src="img/monso/catalogo.png" alt="Catálogo de productos Monso"/></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject"
+                                target="blank"><img class="container-carrousel__img" src="img/monso/principal.png"
+                                    alt="Inicio página Monso" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject"
+                                target="blank"><img class="container-carrousel__img" src="img/monso/login.png"
+                                    alt="Login página Monso" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject"
+                                target="blank"><img class="container-carrousel__img" src="img/monso/about.png"
+                                    alt="Acerca de Monso" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject"
+                                target="blank"><img class="container-carrousel__img" src="img/monso/lista-productos.png"
+                                    alt="Registro de Productos Monso" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject"
+                                target="blank"><img class="container-carrousel__img" src="img/monso/catalogo.png"
+                                    alt="Catálogo de productos Monso" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject"
+                                target="blank"><img class="container-carrousel__img" src="img/monso/principal.png"
+                                    alt="Inicio página Monso" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject"
+                                target="blank"><img class="container-carrousel__img" src="img/monso/login.png"
+                                    alt="Login página Monso" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject"
+                                target="blank"><img class="container-carrousel__img" src="img/monso/about.png"
+                                    alt="Acerca de Monso" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject"
+                                target="blank"><img class="container-carrousel__img" src="img/monso/lista-productos.png"
+                                    alt="Registro de Productos Monso" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/MonsoSA/MonsoProject"
+                                target="blank"><img class="container-carrousel__img" src="img/monso/catalogo.png"
+                                    alt="Catálogo de productos Monso" /></a></figure>
                     </div>
                 </section>
             </div>
-           <div class="section__projects--findCode">
+            <div class="section__projects--findCode">
                 <h3>Find Code</h3>
                 <section class="carrousel">
                     <div class="container-carrousel">
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni" target="blank"><img class="container-carrousel__img" src="img/findCode/principal-diccionario.png" alt="Inicio principal findCode"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni" target="blank"><img class="container-carrousel__img" src="img/findCode/login.png" alt="Login página findCode"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni" target="blank"><img class="container-carrousel__img" src="img/findCode/subpartidas.png" alt="Ejemplo páginas consulta"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni" target="blank"><img class="container-carrousel__img" src="img/findCode/agregar.png" alt="Ejemplo páginas agregar"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni" target="blank"><img class="container-carrousel__img" src="img/findCode/ejemplo-error.png" alt="Ejemplo mensajes de error"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni" target="blank"><img class="container-carrousel__img" src="img/findCode/principal-diccionario.png" alt="Inicio principal findCode"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni" target="blank"><img class="container-carrousel__img" src="img/findCode/login.png" alt="Login página findCode"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni" target="blank"><img class="container-carrousel__img" src="img/findCode/subpartidas.png" alt="Ejemplo páginas consulta"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni" target="blank"><img class="container-carrousel__img" src="img/findCode/agregar.png" alt="Ejemplo páginas agregar"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni" target="blank"><img class="container-carrousel__img" src="img/findCode/ejemplo-error.png" alt="Ejemplo mensajes de error"/></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/findCode/principal-diccionario.png" alt="Inicio principal findCode" /></a>
+                        </figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni"
+                                target="blank"><img class="container-carrousel__img" src="img/findCode/login.png"
+                                    alt="Login página findCode" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni"
+                                target="blank"><img class="container-carrousel__img" src="img/findCode/subpartidas.png"
+                                    alt="Ejemplo páginas consulta" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni"
+                                target="blank"><img class="container-carrousel__img" src="img/findCode/agregar.png"
+                                    alt="Ejemplo páginas agregar" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/findCode/ejemplo-error.png" alt="Ejemplo mensajes de error" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/findCode/principal-diccionario.png" alt="Inicio principal findCode" /></a>
+                        </figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni"
+                                target="blank"><img class="container-carrousel__img" src="img/findCode/login.png"
+                                    alt="Login página findCode" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni"
+                                target="blank"><img class="container-carrousel__img" src="img/findCode/subpartidas.png"
+                                    alt="Ejemplo páginas consulta" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni"
+                                target="blank"><img class="container-carrousel__img" src="img/findCode/agregar.png"
+                                    alt="Ejemplo páginas agregar" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/DicImputMuni"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/findCode/ejemplo-error.png" alt="Ejemplo mensajes de error" /></a></figure>
                     </div>
                 </section>
             </div>
@@ -174,16 +332,38 @@
                 <h3>Control de acceso</h3>
                 <section class="carrousel">
                     <div class="container-carrousel">
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso" target="blank"><img class="container-carrousel__img" src="img/acceso/Login.png" alt="Inicio sesión de control de acceso"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso" target="blank"><img class="container-carrousel__img" src="img/acceso/Principal usuarios.png" alt="Página principal de usuarios"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso" target="blank"><img class="container-carrousel__img" src="img/acceso/Registro usuarios.png" alt="Registro de usuarios"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso" target="blank"><img class="container-carrousel__img" src="img/acceso/registros.png" alt="Ejemplo registros"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso" target="blank"><img class="container-carrousel__img" src="img/acceso/registros2.png" alt="Ejemplo 2 de registros"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso" target="blank"><img class="container-carrousel__img" src="img/acceso/Login.png" alt="Inicio sesión de control de acceso"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso" target="blank"><img class="container-carrousel__img" src="img/acceso/Principal usuarios.png" alt="Página principal de usuarios"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso" target="blank"><img class="container-carrousel__img" src="img/acceso/Registro usuarios.png" alt="Registro de usuarios"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso" target="blank"><img class="container-carrousel__img" src="img/acceso/registros.png" alt="Ejemplo registros"/></a></figure>
-                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso" target="blank"><img class="container-carrousel__img" src="img/acceso/registros2.png" alt="Ejemplo 2 de registros"/></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso"
+                                target="blank"><img class="container-carrousel__img" src="img/acceso/Login.png"
+                                    alt="Inicio sesión de control de acceso" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/acceso/Principal usuarios.png" alt="Página principal de usuarios" /></a>
+                        </figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/acceso/Registro usuarios.png" alt="Registro de usuarios" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso"
+                                target="blank"><img class="container-carrousel__img" src="img/acceso/registros.png"
+                                    alt="Ejemplo registros" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso"
+                                target="blank"><img class="container-carrousel__img" src="img/acceso/registros2.png"
+                                    alt="Ejemplo 2 de registros" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso"
+                                target="blank"><img class="container-carrousel__img" src="img/acceso/Login.png"
+                                    alt="Inicio sesión de control de acceso" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/acceso/Principal usuarios.png" alt="Página principal de usuarios" /></a>
+                        </figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso"
+                                target="blank"><img class="container-carrousel__img"
+                                    src="img/acceso/Registro usuarios.png" alt="Registro de usuarios" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso"
+                                target="blank"><img class="container-carrousel__img" src="img/acceso/registros.png"
+                                    alt="Ejemplo registros" /></a></figure>
+                        <figure class="container-carrousel__figure"><a href="https://github.com/josue7114/ControlAcceso"
+                                target="blank"><img class="container-carrousel__img" src="img/acceso/registros2.png"
+                                    alt="Ejemplo 2 de registros" /></a></figure>
                     </div>
                 </section>
             </div>
@@ -203,19 +383,19 @@
                 <h4 class="sub4">Conocimientos</h4>
                 <ul class="list">
                     <li class="list__item">Programación web</li>
-                        <ul class="list">
-                            <li class="list__item--sublist">PHP</li>
-                            <li class="list__item--sublist">ASP.Net</li>
-                            <li class="list__item--sublist">JavaServerFaces</li>
-                            <li class="list__item--sublist">Laravel</li>
-                            <li class="list__item--sublist">Simfony</li>
-                        </ul>
+                    <ul class="list">
+                        <li class="list__item--sublist">PHP</li>
+                        <li class="list__item--sublist">ASP.Net</li>
+                        <li class="list__item--sublist">JavaServerFaces</li>
+                        <li class="list__item--sublist">Laravel</li>
+                        <li class="list__item--sublist">Simfony</li>
+                    </ul>
                     <li class="list__item">Programación de escritorio</li>
-                        <ul class="list">
-                            <li class="list__item--sublist">C#</li>
-                            <li class="list__item--sublist">Java</li>
-                            <li class="list__item--sublist">Python</li>
-                        </ul>
+                    <ul class="list">
+                        <li class="list__item--sublist">C#</li>
+                        <li class="list__item--sublist">Java</li>
+                        <li class="list__item--sublist">Python</li>
+                    </ul>
 
                 </ul>
             </div>
@@ -223,16 +403,20 @@
         <section id="contact" class="section__contact">
             <h2 class="subtitle">Contacto</h2>
             <div class="section__contact--facebook">
-                <a class="link" href="http://www.facebook.com/josue1495" target="blank"><img id="img-fb" src="img/facebook-black.png" alt="Logo Facebook" class="img--facebook"/></a>
+                <a class="link" href="http://www.facebook.com/josue1495" target="blank"><img id="img-fb"
+                        src="img/facebook-black.png" alt="Logo Facebook" class="img--facebook" /></a>
             </div>
             <div class="section__contact--instagram">
-                <a class="link" href="https://www.instagram.com/jcordero1995/" target="blank"><img id="img-im" src="img/instagram-bosquejado-black.png" alt="Logo Instagram" class="img--instagram"/></a>
+                <a class="link" href="https://www.instagram.com/jcordero1995/" target="blank"><img id="img-im"
+                        src="img/instagram-bosquejado-black.png" alt="Logo Instagram" class="img--instagram" /></a>
             </div>
-            <div class="section__contact--linkedin"> 
-                <a class="link" href="https://www.linkedin.com/in/josue-cordero-5b9747163/" target="blank"><img id="img-ld" src="img/linkedin-black.png" alt="Logo LinkedIn" class="img--linkedin"/></a>
+            <div class="section__contact--linkedin">
+                <a class="link" href="https://www.linkedin.com/in/josue-cordero-5b9747163/" target="blank"><img
+                        id="img-ld" src="img/linkedin-black.png" alt="Logo LinkedIn" class="img--linkedin" /></a>
             </div>
             <div class="section__contact--whatsapp">
-                <a class="link" href="https://api.whatsapp.com/send?phone=+50687427973" target="blank"><img id="img-wa" src="img/whatsapp-black.png" alt="Logo WhatsApp" class="img--whatsapp"/></a>
+                <a class="link" href="https://api.whatsapp.com/send?phone=+50687427973" target="blank"><img id="img-wa"
+                        src="img/whatsapp-black.png" alt="Logo WhatsApp" class="img--whatsapp" /></a>
             </div>
         </section>
     </section>
@@ -241,7 +425,6 @@
             <p class="paragraph paragraph--footer">&copy;Derechos reservados 2020</p>
         </section>
     </footer>
-    <script src="js/jquery-3.5.1.js"></script>
     <script src="js/headroom.js"></script>
     <script src="js/actions.js"></script>
 </body>
