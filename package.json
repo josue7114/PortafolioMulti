@@ -19,6 +19,6 @@
   "homepage": "https://github.com/josue7114/PortafolioMulti#readme",
   "dependencies": {
     "headroom.js": "^0.11.0",
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   }
 }
